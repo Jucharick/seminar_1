@@ -2,7 +2,7 @@
 int n = Convert.ToInt32(Console.ReadLine());
 if (n < 100 | n > 999)
 {
-    Console.WriteLine("Введите целое трехзначное число");
+    Console.WriteLine("Это не трехзначное число");
 }
 else 
 {
